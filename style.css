@@ -1,0 +1,129 @@
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    background-color: white;
+    border-bottom: 2px solid blue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#name{
+    margin-left: 80px;
+    color: blue;
+}
+#items{
+    margin-right: 50px;
+    display:flex;
+    gap:40px;
+    padding: 10px 20px;
+    color: black;
+}
+#hi{
+    font-size: larger;
+    text-align: center;
+    font-family: boxicons;
+    padding-top: 200px;
+}
+.button{
+    color:white;
+    font-size: medium;
+    background-color: blue;
+    height:50px;
+    width:110px;
+    border-radius: 30%;
+    border-color: blue;
+}
+#Siri{
+    color: blue;
+    text-decoration: double;
+    font-size: 60px;
+}
+#dev_pic{
+    display: flex;
+    justify-content: center;
+}
+#text1{
+    font-size: 23px;
+}
+#profiles {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px 20px;
+    padding-bottom: 130px;
+}
+#item{
+    font-size: 50px;
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+#about-text-2{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#text{
+    font-size: 20px;
+}
+#work{
+    display: flex;
+    justify-content:space-between;
+}
+#project{
+    display: flex;
+    justify-content:space-around;
+    padding:20px;
+    margin: 4%;
+}
+#pro{
+    color: blue;
+    text-align: center;
+}
+#footer{
+    
+    height:50px;
+    background-color: rgba(77, 20, 168, 0.76);
+}
+/* Tablet and below */
+@media screen and (max-width: 992px) {
+    #nav {
+      flex-direction: column;
+      text-align: center;
+    }
+    #items {
+      margin-top: 10px;
+    }
+    #items h2 {
+      display: block;
+      margin: 10px 0;
+    }
+    #hi {
+      padding: 150px;
+    } 
+    #work, #project {
+      flex-direction: column;
+      align-items: center;
+    }
+  } 
+  /* Mobile and below */
+  @media screen and (max-width: 600px) {
+    h1, h2 {
+      font-size: 1.5rem;
+    }
+    #hi p, #about-text-2 p {
+      font-size: 1rem;
+      padding: 10px;
+    } 
+    #profiles img {
+      height: 40px;
+    }
+    #project div img, #work a img {
+      height: 200px;
+    }
+    #footer h2 {
+      font-size: 1rem;
+    }
+  }
+  
