@@ -1,3 +1,3 @@
 function openResume(){
-    window.open("https://drive.google.com/file/d/1wD-Xr_r5ti7ieA5giUlPaBWhL_9DPDC2/view?usp=drivesdk", "_blank");
+    window.open("https://drive.google.com/file/d/1Ng6InvAWsVqJJkx8bt0S2-l85-zZ0s4X/view", "_blank");
 }
